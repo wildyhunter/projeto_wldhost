@@ -328,3 +328,105 @@ footer {
     font-weight: bolder;
     margin: 20px 0 50px;
 }
+
+/* Responsividade */
+/* Small laptop a partir de 1100px*/
+
+@media screen and (max-width: 1100px)  {
+    .plans-container {
+        width: 95%;
+    }
+
+    .plan {
+        margin: 0 5px;
+    }
+}
+
+/* teble 900px */
+
+@media (max-width: 900px) {
+    .main-banner {
+        padding: 6rem;
+    }
+    .searchmain-container {
+        padding: 2rem 4rem;
+    }
+}
+
+/* celular 576px*/
+
+@media (max-width: 576px) {
+
+
+    .navbar-container {
+        padding: 0 15px;
+    }
+
+    .navbar-container img {
+        margin-left: 0;
+    }
+
+    .main-banner {
+        padding: 2rem;
+    }
+
+    .navbar-items li {
+        font-size: 12px;
+        margin-left: 10px;
+    }
+
+    .services-container ul {
+        flex-direction: column;
+    }
+
+    .plans-container {
+        flex-direction: column;
+        width: 100%;
+        align-items: center;
+        margin-top: 10px;
+    }
+    .plan {
+        width: 90%;
+        max-width: 90%;
+        margin-top: 10px;
+    }
+
+    .plan-name {
+        border-radius: 10px 10px 0 0;
+    }
+
+    .plan-btn {
+        border-radius: 0 0 10px 10px;
+    }
+
+    .searchmain-container input[type="text"] {
+        width: 100%;
+    }
+
+    .contact-container {
+        padding-top: 35px;
+    }
+
+    .contact-container input,
+    .contact-container textarea {
+        width: 80%;
+        max-width: 100%;
+        padding: 5px 20px;
+        
+    }
+
+    .contact-container h2 {
+        font-size: 32px;
+        padding: 0 20px;
+    }
+
+    .contact-container p {
+        font-size: 18px;
+    }
+
+    .contact-container input[type="submit"] {
+        width: 50%;
+        height: 40px;
+    }
+
+}
